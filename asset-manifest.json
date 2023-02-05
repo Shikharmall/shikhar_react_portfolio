@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/shikhar_react_portfolio/static/css/main.a978765e.css",
-    "main.js": "/shikhar_react_portfolio/static/js/main.181ce1b3.js",
+    "main.css": "/shikhar_react_portfolio/static/css/main.06e055b7.css",
+    "main.js": "/shikhar_react_portfolio/static/js/main.4df4bf40.js",
     "static/js/787.1ed0c42c.chunk.js": "/shikhar_react_portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/download.png": "/shikhar_react_portfolio/static/media/download.54487705247cf6f9e967.png",
     "static/media/shikhar_red.jpg": "/shikhar_react_portfolio/static/media/shikhar_red.21bcc2095829a4f4e90f.jpg",
     "index.html": "/shikhar_react_portfolio/index.html",
-    "main.a978765e.css.map": "/shikhar_react_portfolio/static/css/main.a978765e.css.map",
-    "main.181ce1b3.js.map": "/shikhar_react_portfolio/static/js/main.181ce1b3.js.map",
+    "main.06e055b7.css.map": "/shikhar_react_portfolio/static/css/main.06e055b7.css.map",
+    "main.4df4bf40.js.map": "/shikhar_react_portfolio/static/js/main.4df4bf40.js.map",
     "787.1ed0c42c.chunk.js.map": "/shikhar_react_portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a978765e.css",
-    "static/js/main.181ce1b3.js"
+    "static/css/main.06e055b7.css",
+    "static/js/main.4df4bf40.js"
   ]
 }
