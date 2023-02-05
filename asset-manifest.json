@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/shikhar_react_portfolio/static/css/main.68c15f6f.css",
-    "main.js": "/shikhar_react_portfolio/static/js/main.0c6b7085.js",
+    "main.js": "/shikhar_react_portfolio/static/js/main.49fd082c.js",
     "static/js/787.1ed0c42c.chunk.js": "/shikhar_react_portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/download.png": "/shikhar_react_portfolio/static/media/download.54487705247cf6f9e967.png",
     "static/media/shikhar_red.jpg": "/shikhar_react_portfolio/static/media/shikhar_red.21bcc2095829a4f4e90f.jpg",
     "index.html": "/shikhar_react_portfolio/index.html",
     "main.68c15f6f.css.map": "/shikhar_react_portfolio/static/css/main.68c15f6f.css.map",
-    "main.0c6b7085.js.map": "/shikhar_react_portfolio/static/js/main.0c6b7085.js.map",
+    "main.49fd082c.js.map": "/shikhar_react_portfolio/static/js/main.49fd082c.js.map",
     "787.1ed0c42c.chunk.js.map": "/shikhar_react_portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.68c15f6f.css",
-    "static/js/main.0c6b7085.js"
+    "static/js/main.49fd082c.js"
   ]
 }
