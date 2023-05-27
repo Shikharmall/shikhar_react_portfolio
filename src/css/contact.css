@@ -1,0 +1,95 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.contact h1{
+    text-align: center;
+    color: #082c74;
+}
+.contact h5{
+    text-align: center;
+    color: #00b9f5;
+    font-weight: 400;
+}
+
+
+.sub_sub_contact1 input{
+    width: 300px;
+    padding: 1em;
+    margin: 10px;
+    border-radius: 10px;
+    border-width: 1.5px;
+    border-color: rgb(166, 164, 164);
+}
+
+.sub_sub_contact1 input:focus , .sub_sub_contact1 input:hover{
+    outline: none !important;
+    border: #00b9f5 1.5px solid;
+}
+
+.sub_sub_contact1 textarea{
+    width: 300px;
+    padding: 1em;
+    height: 300px;
+    margin: 10px;
+    border-width: 1.5px;
+    border-radius: 10px;
+    border-color: rgb(145, 143, 143);
+}
+
+.sub_sub_contact1 textarea:focus , .sub_sub_contact1 textarea:hover{
+    outline: none !important;
+    border: #00b9f5 1.5px solid;
+}
+
+.sub_sub_contact1 input[type=submit]{
+    border: none;
+    background-color: #00b9f5;
+    color: white;
+    border-radius: 6px;
+}
+
+.sub_sub_contact1 input[type=submit]:hover{
+    cursor: pointer;
+}
+
+.sub_sub_contact1 h3{
+    text-align: center;
+    color: #00b9f5;
+}
+
+
+.sub_contact{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sub_sub_contact h3{
+    text-align: center;
+    color: #00b9f5;
+}
+
+.sub_sub_sub_contact{
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width:  300px;
+    height: 130px;
+    text-align: center;
+}
+
+.sub_sub_sub_contact img{
+    width: 50px;
+}
+
+.sub_sub_sub_contact h4{
+    color: rgb(111, 107, 107);
+}
+
+.sub_sub_sub_contact a{
+    text-decoration: none;
+    margin-top: 100px;
+    color: #00b9f5;
+}

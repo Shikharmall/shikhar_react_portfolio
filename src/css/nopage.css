@@ -1,0 +1,15 @@
+.nopage{
+    color: #00b9f5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.sub_nopage{
+    margin: 20px;
+}
+
+.sub_nopage img{
+    width: 100px;
+}
