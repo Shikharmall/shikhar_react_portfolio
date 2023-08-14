@@ -1,56 +1,155 @@
-import React from 'react';
+import React,{useState} from 'react';
 import '../css/project.css';
+import podcast from '../img/podcast.png';
+import portfolio from '../img/portfolio.png';
 
-export default function Project() {
+import ecommerce from '../img/ecommerce.png';
+
+
+
+
+export default function Project(){
+
+    const [isHovered1, setIsHovered1] = useState(false);
+  
+    const handleHover1 = () => {
+      setIsHovered1(!isHovered1);
+    };
+
+    const handleHover11 = () => {
+      setTimeout(() => {
+        setIsHovered1(!isHovered1);
+      }, 5000);
+      
+    };
+
+    const [isHovered2, setIsHovered2] = useState(false);
+  
+    const handleHover2 = () => {
+      setIsHovered2(!isHovered2);
+    };
+
+    const handleHover21 = () => {
+      setTimeout(() => {
+        setIsHovered2(!isHovered2);
+      }, 5000);
+      
+    };
+
+    const [isHovered3, setIsHovered3] = useState(false);
+  
+    const handleHover3 = () => {
+      setIsHovered3(!isHovered3);
+    };
+
+    const handleHover31 = () => {
+      setTimeout(() => {
+        setIsHovered3(!isHovered3);
+      }, 5000);
+      
+    };
+
+    //const content = isHovered ? 'Hovered Content' : 'Original Content';
+  
+  
   return (
     <div className='project'>
       <br /><br />
       <h1>Projects</h1>
       <h5>Things developed by me</h5>
+      <br />
+      
       <div className='sub_project'>
-        <div className='sub_sub_project'>
+
+        <div className="sub_project1">
           
-            <span id='lgt-blue'> <b>The SARUS E-Commerce Website</b> </span>
-              <ul>
-                <li> <b>Link: </b> <a href='http://thesarus.rf.gd' target='blank'>thesarus.rf.gd</a></li>
-                <li>Online E-commerce website where one can shop items.</li>
-                <li>The languages used in this project are HTML, CSS, JavaScript, and PHP.</li>
-                <li>This project is under progress to be converted into MERN stack.</li>
-                <li>Responsive without using bootstrap.</li>
-                <li>Contains Consignment Tracking System, Payment System and cart is on progress.</li>
-                <li>High use of database for storing details of customers.</li>
-              </ul>
+          <img src={podcast} alt="projectimg" onMouseOver={handleHover1} onMouseOut={handleHover11}/>
 
-            <br/>
-            <br/>
+          <div className="sub_sub_project1" id={isHovered1 ? "visibleyes":"visibleno"}>
 
-            <span id='lgt-blue'> <b>Treasure Hunt Game</b> </span>
-              <ul>
-                <li> <b>Link: </b> <a href='https://project19.onrender.com/' target='blank'>project19.onrender.com/</a></li>
-                <li>MERN project</li>
-                <li>Responsive without using bootstrap.</li>
-                <li>email :  shmall.21.2020@gmail.com</li>
-                <li>password : 1234</li>
-                <li>This is email and password to login this game.</li>
-                <li>As project is hosted on free server it can take time to load.</li>
-              </ul>
+            <center>
+              <h2>The SARUS Podcast</h2>
+            </center>
+            
+            <p>
+            	<span id='lightblue'>•</span> The languages used in this project are CSS , JavaScript , NodeJS , ExpressJS and MongoDB. <br />
+              <span id='lightblue'>•</span> Here users can create his channel and add many podcast on his channel. <br />
+              <span id='lightblue'>•</span> This project has a secure login system protected by JWT authentication and users have to also verify their identity via email verification.	 <br />           
+              <span id='lightblue'>•</span> Users can create seasons of his podcast and upload his podcast video. <br />
+	            <span id='lightblue'>•</span> Viewers can subscribe their favorite channel. They can search their favorite channel and podcast.
+            </p>
 
-            <br/>
-            <br/>
+            <br />
 
-            <span id="lgt-blue"> <b>React Based Portfolio</b> </span>
-              <ul>
-                <li> <b>Link: </b> <a href='https://shikharmall.github.io/shikhar_react_portfolio/' target='blank'>https://shikharmall.github.io/shikhar_react_portfolio/</a> </li>
-                <li>React based Portfolio of myself which contain information about my qualifications and achivements.</li>
-                <li>The languages used in this project are HTML, CSS, JavaScript, and React JS.</li>
-                <li>This project gives client easiness for using the site by solving the loading of pages.</li>
-                <li>Responsive without using bootstrap.</li>
-                <li>High use of database for storing details of customers.</li>
-              </ul>
-          
+            <center>
+              <a href="https://github.com/Shikharmall/podcast" target='_blank' rel="noreferrer">Visit Project</a>
+            </center>
+
+          </div>
 
         </div>
+        
+
+        <div className="sub_project1">
+
+          <img src={portfolio} alt="projectimg" onMouseOver={handleHover2} onMouseOut={handleHover21}/>
+
+          <div className="sub_sub_project1" id={isHovered2 ? "visibleyes":"visibleno"}>
+
+            <center>
+              <h2>Portfolio</h2>
+            </center>
+            
+            <p>
+            	<span id='lightblue'>•</span> The languages used in this project are HTML, CSS, JavaScript and ReactJS. <br />
+              <span id='lightblue'>•</span> This project contains a deep knowledge about me. <br />
+              <span id='lightblue'>•</span> It is single page application and also has feature of navigation without loading which reduces server load.	 <br />           
+              <span id='lightblue'>•</span> It also contains the project which is developed by me or on-developing phrase.
+            </p>
+
+            <br />
+
+            <center>
+              <a href="https://Shikharmall.github.io/shikhar_react_portfolio" target='_blank' rel="noreferrer">Visit Project</a>
+            </center>
+
+          </div>
+
+        </div>
+
+        <div className="sub_project1">
+          <img src={ecommerce} alt="projectimg" onMouseOver={handleHover3} onMouseOut={handleHover31}/>
+
+          <div className="sub_sub_project1" id={isHovered3 ? "visibleyes":"visibleno"}>
+
+            <center>
+              <h2>The SARUS E-Commerce</h2>
+            </center>
+            
+            <p>
+            	<span id='lightblue'>•</span> Online E-commerce website where owner can sell his products. <br />
+              <span id='lightblue'>•</span> The languages used in this project are HTML, CSS, JavaScript, and PHP. <br />
+              <span id='lightblue'>•</span> This project is full stack which contains both frontend and backend. 	 <br />           
+              <span id='lightblue'>•</span> Full responsive website without using bootstrap. <br />
+	            <span id='lightblue'>•</span> Contains Consignment Tracking System, Payment System and a Cart System. <br />
+              <span id='lightblue'>•</span> It also contains very secure owner dashboard.
+            </p>
+
+            <br />
+
+            <center>
+              <a href="http://thesarus.rf.gd" target='_blank' rel="noreferrer">Visit Project</a>
+            </center>
+
+          </div>
+        </div>
+
       </div>
+
+
+ 
     </div>
   )
 }
+
+
