@@ -35,6 +35,19 @@ function App() {
   abc();
 
   first find in its local scope then in its parent lexical environment then in global scope.
+
+  function abc() {
+    var a = 5;
+   
+  }
+
+   function xyz() {
+        console.log(a);
+    }
+    
+    xyz();
+  
+  abc();
   
   */
 
