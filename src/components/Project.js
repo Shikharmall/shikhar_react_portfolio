@@ -56,7 +56,7 @@ export default function Project(){
     <div className='project'>
       <br /><br />
       <h1>Projects</h1>
-      <h5>Things developed by me</h5>
+      <h5>Top three projects of mine</h5>
       <br />
       
       <div className='sub_project'>
