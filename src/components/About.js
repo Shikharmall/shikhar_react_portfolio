@@ -29,7 +29,7 @@ export default function About() {
               <div className="sub_sub_sub_sub_aboutme2">
                 <img src={Bag} alt='bag'/>
                 <h3>Completed</h3>
-                <h3>3+ Projects</h3>
+                <h3>13+ Projects</h3>
               </div>
               <div className="sub_sub_sub_sub_aboutme2">
                 <img src={Support} alt='support'/>
