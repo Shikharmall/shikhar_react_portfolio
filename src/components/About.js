@@ -33,7 +33,7 @@ export default function About() {
               </div>
               <div className="sub_sub_sub_sub_aboutme2">
                 <img src={Support} alt='support'/>
-                <h3>Onilne Support</h3>
+                <h3>Online technical Support</h3>
                 <h3>24/7</h3>
               </div>
             </div>
