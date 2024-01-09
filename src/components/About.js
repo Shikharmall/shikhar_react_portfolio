@@ -23,8 +23,8 @@ export default function About() {
             <div className='sub_sub_sub_aboutme2'>
               <div className="sub_sub_sub_sub_aboutme2">
                 <img src={Badge} alt='badge'/>
-                <h3>Experience</h3>
-                <h3>2+ Years</h3>
+                <h3>Company Experience</h3>
+                <h3>1+ Years</h3>
               </div>
               <div className="sub_sub_sub_sub_aboutme2">
                 <img src={Bag} alt='bag'/>
@@ -37,7 +37,7 @@ export default function About() {
                 <h3>Online 24/7</h3>
               </div>
             </div>
-              <p>Hello , My name is Shikhar Mall. I have completed my high school in year 2017 in school named <b>The Pillars Public School</b>, Gorakhpur Uttar Pradesh  with a grade of 9.6 CGPA .Afterthat I joined <b>Madhav Public School</b>, Gorakhpur Uttar Pradesh for my intermediate in which I scored 85.6% with 93% in PCM(physics, chemistry ,maths). Currently I am doing my undergratuation in Bachelor of Technology in <b>Computer Science and Engineering</b> in the state government college <b>Madan Mohan Malviya University of Technology</b>, Gorakhpur Uttar Pradesh and my current CGPA is 8.12 .</p>
+              <p>Hello , My name is Shikhar Mall. I have completed my high school in year 2017 in school named <b>The Pillars Public School</b>, Gorakhpur Uttar Pradesh  with a grade of 9.6 CGPA .Afterthat I joined <b>Madhav Public School</b>, Gorakhpur Uttar Pradesh for my intermediate in which I scored 85.6% with 93% in PCM(physics, chemistry ,maths). Currently I am doing my undergratuation in Bachelor of Technology in <b>Computer Science and Engineering</b> in the state government college <b>Madan Mohan Malviya University of Technology</b>, Gorakhpur Uttar Pradesh and my current CGPA is 7.7 . I would be completing my graduation on May,2024 .</p>
           </div>
 
         </div>
