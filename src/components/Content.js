@@ -5,7 +5,6 @@ import React from 'react';
 
 import { useNavigate } from 'react-router-dom';
 
-
 export default function Content() {
   const navigate = useNavigate();
 
@@ -18,7 +17,7 @@ export default function Content() {
         <div className="sub_content1">
             <h1>Hi,</h1>
             <h1>I'am <span id="lgt-blue">Shikhar</span></h1>
-            <h1>Web Designer</h1>
+            <h1>Full Stack Developer<span id="lgt-blue">!</span></h1>
             <br></br>
             <br></br>
             <button onClick={() => goToContact()}>
