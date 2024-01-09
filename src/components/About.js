@@ -33,8 +33,8 @@ export default function About() {
               </div>
               <div className="sub_sub_sub_sub_aboutme2">
                 <img src={Support} alt='support'/>
-                <h3>Online technical Support</h3>
-                <h3>24/7</h3>
+                <h3>Technical Support</h3>
+                <h3>Online 24/7</h3>
               </div>
             </div>
               <p>Hello , My name is Shikhar Mall. I have completed my high school in year 2017 in school named <b>The Pillars Public School</b>, Gorakhpur Uttar Pradesh  with a grade of 9.6 CGPA .Afterthat I joined <b>Madhav Public School</b>, Gorakhpur Uttar Pradesh for my intermediate in which I scored 85.6% with 93% in PCM(physics, chemistry ,maths). Currently I am doing my undergratuation in Bachelor of Technology in <b>Computer Science and Engineering</b> in the state government college <b>Madan Mohan Malviya University of Technology</b>, Gorakhpur Uttar Pradesh and my current CGPA is 7.7 . I would be completing my graduation on May,2024 .</p>
