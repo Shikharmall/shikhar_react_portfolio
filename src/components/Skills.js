@@ -25,7 +25,7 @@ export default function Skills() {
           <div className="sub_sub_skills2">
             <div> <img src={Verified} alt ='verified-subject'/> </div>
             <div> 
-              <h3>Bootstrap</h3>
+              <h3>Tailwind</h3>
               <h5>Intermediate</h5>
             </div>
           </div>
