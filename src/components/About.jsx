@@ -7,7 +7,7 @@ import Support from '../img/support.png';
 
 export default function About() {
   return (
-    <div class="aboutme">
+    <div className="aboutme">
         <br /><br />
         <h1>About Me</h1>
         <h5>My introduction</h5>

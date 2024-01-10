@@ -13,10 +13,16 @@ export default function Contact() {
   });
 
   const [isToast, setIsToast] = useState(false);
+  const [isError, setIsError] = useState(false);
+  const [err, setErr] = useState("");
   const [loader, setLoader] = useState(false);
 
   const divStyle = {
     color: "green",
+  };
+
+  const divStyle1 = {
+    color: "red",
   };
 
   const onChangeData = (e) => {
@@ -29,6 +35,7 @@ export default function Contact() {
   const submitHandle = (e) => {
     e.preventDefault();
     setLoader(true);
+    setIsError(false);
     try {
       userMessage(formData).then((res) => {
         if (res.status === 201) {
@@ -44,10 +51,15 @@ export default function Contact() {
           setLoader(false);
         } else {
           //toast("Data Fetching Failed!");
-          console.log("Data Saving Failed");
+          setLoader(false);
+         // setErr(res);
+          setIsError(true);
+          setErr(res?.response?.data?.errors);
+          console.log(res?.response?.data?.errors);
         }
       });
     } catch (error) {
+      setLoader(false);
       console.log(error);
     }
   };
@@ -93,6 +105,14 @@ export default function Contact() {
               {" "}
               <center>
                 <b>Message Saved !</b>
+              </center>{" "}
+            </p>
+          ) : null}
+          {isError ? (
+            <p style={divStyle1}>
+              {" "}
+              <center>
+                <b>{err}</b>
               </center>{" "}
             </p>
           ) : null}

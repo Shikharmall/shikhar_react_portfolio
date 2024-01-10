@@ -8,7 +8,7 @@ import Support from "../img/support.png";
 
 export default function Work() {
   return (
-    <div class="aboutme">
+    <div className="aboutme">
       <br />
       <br />
       <h1>Work</h1>
