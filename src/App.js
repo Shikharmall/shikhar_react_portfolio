@@ -8,6 +8,7 @@ import Project from "./components/Project";
 import NoPage from "./components/NoPage";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import Work from "./components/Work";
 
 function App() {
   const location = useLocation();
@@ -63,6 +64,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="skills" element={<Skills />} />
+        <Route path="work" element={<Work />} />
         <Route path="project" element={<Project />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
