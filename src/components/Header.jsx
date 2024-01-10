@@ -21,7 +21,7 @@ export default function Header() {
           <NavLink to="about">About Me</NavLink>
           <NavLink to="contact">Contact Me</NavLink>
           <NavLink to="skills">Skills</NavLink>
-          <NavLink to="work">Work</NavLink>
+          {/*<NavLink to="work">Work</NavLink>*/}
           <NavLink to="project">Projects</NavLink>
         </div>
 
@@ -40,7 +40,7 @@ export default function Header() {
         <div className='sub_sub_headingggg'> <NavLink to="about" onClick={()=>setShowMediaIcons(false)}>About Me</NavLink> </div>
         <div className='sub_sub_headingggg'> <NavLink to="contact" onClick={()=>setShowMediaIcons(false)}>Contact Me</NavLink> </div>
         <div className='sub_sub_headingggg'> <NavLink to="skills" onClick={()=>setShowMediaIcons(false)}>Skills</NavLink> </div>
-        <div className='sub_sub_headingggg'> <NavLink to="work" onClick={()=>setShowMediaIcons(false)}>Work</NavLink> </div>
+        {/*<div className='sub_sub_headingggg'> <NavLink to="work" onClick={()=>setShowMediaIcons(false)}>Work</NavLink> </div>*/}
         <div className='sub_sub_headingggg'> <NavLink to="project" onClick={()=>setShowMediaIcons(false)}>Projects</NavLink> </div>
       </div>
     </div>
