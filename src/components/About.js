@@ -23,17 +23,17 @@ export default function About() {
             <div className='sub_sub_sub_aboutme2'>
               <div className="sub_sub_sub_sub_aboutme2">
                 <img src={Badge} alt='badge'/>
-                <h3>Company Experience</h3>
+                <h3>Experience</h3>
                 <h3>1+ Years</h3>
               </div>
               <div className="sub_sub_sub_sub_aboutme2">
                 <img src={Bag} alt='bag'/>
-                <h3>Project Completed</h3>
+                <h3>Completed</h3>
                 <h3>13+ Projects</h3>
               </div>
               <div className="sub_sub_sub_sub_aboutme2">
                 <img src={Support} alt='support'/>
-                <h3>Technical Support</h3>
+                <h3>Support</h3>
                 <h3>Online 24/7</h3>
               </div>
             </div>

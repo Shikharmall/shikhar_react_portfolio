@@ -2,6 +2,10 @@ html{
     scroll-behavior: smooth;
 }
 
+#drk_blue{
+    color: #082c74;
+}
+
 .contact h1{
     text-align: center;
     color: #082c74;
