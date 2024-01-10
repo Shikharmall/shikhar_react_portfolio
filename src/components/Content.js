@@ -14,21 +14,22 @@ export default function Content() {
 
   const resumeDownload = () => {
     // Replace 'your-file-url' with the actual URL of the file you want to download
-    const fileUrl = 'https://drive.google.com/file/d/1SDJ4zGN0dn7aopKnSSA_SUiRpy8VhoLV/view?usp=sharing';
-    
+    const fileUrl =
+      "https://drive.google.com/file/d/1SDJ4zGN0dn7aopKnSSA_SUiRpy8VhoLV/view?usp=sharing";
+
     // Create a link element
-    const link = document.createElement('a');
+    const link = document.createElement("a");
     link.href = fileUrl;
-    
+
     // Specify the filename for the downloaded file
-    link.download = 'shikhar_resume.pdf';
-    
+    link.download = "shikhar_resume.pdf";
+
     // Append the link to the document
     document.body.appendChild(link);
-    
+
     // Trigger the click event to start the download
     link.click();
-    
+
     // Remove the link from the document
     document.body.removeChild(link);
   };
