@@ -39,8 +39,8 @@ export default function Skills() {
           <div className="sub_sub_skills4">
             <div> <img src={Verified} alt ='verified-subject'/> </div>
             <div> 
-              <h3>Git</h3>
-              <h5>Basic</h5>
+              <h3>Next JS</h3>
+              <h5>Intermediate</h5>
             </div>
           </div>
           <div className="sub_sub_skills5">
@@ -82,7 +82,7 @@ export default function Skills() {
             <div> <img src={Verified} alt ='verified-subject'/> </div>
             <div> 
               <h3>Node JS</h3>
-              <h5>Basic</h5>
+              <h5>Intermediate</h5>
             </div>
           </div>
           <div className="sub_sub_skills4">
@@ -102,7 +102,7 @@ export default function Skills() {
           <div className="sub_sub_skills6">
             <div> <img src={Verified} alt ='verified-subject'/> </div>
             <div> 
-              <h3>Next JS</h3>
+              <h3>Laravel</h3>
               <h5>Intermediate</h5>
             </div>
           </div> 
@@ -173,7 +173,7 @@ export default function Skills() {
           <div className="sub_sub_skills_2-2">
             <div> <img src={Verified} alt ='verified-subject'/> </div>
             <div> 
-              <h3>Design and Analyis of Algorithm</h3>
+              <h3>Database and Management System</h3>
               <h5>Intermediate</h5>
             </div>
           </div>
@@ -187,7 +187,7 @@ export default function Skills() {
           <div className="sub_sub_skills_2-4">
             <div> <img src={Verified} alt ='verified-subject'/> </div>
             <div> 
-              <h3>Advanced Computer Architecture</h3>
+              <h3>Computer Networking</h3>
               <h5>Intermediate</h5>
             </div>
           </div>
