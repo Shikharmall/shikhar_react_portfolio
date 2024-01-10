@@ -13,6 +13,7 @@ export default function Contact() {
   });
 
   const [isToast, setIsToast] = useState(false);
+  const [loader, setLoader] = useState(false);
 
   const divStyle = {
     color: "green",
@@ -27,6 +28,7 @@ export default function Contact() {
 
   const submitHandle = (e) => {
     e.preventDefault();
+    setLoader(true);
     try {
       userMessage(formData).then((res) => {
         if (res.status === 201) {
@@ -39,6 +41,7 @@ export default function Contact() {
             email: "",
             message: "",
           });
+          setLoader(false);
         } else {
           //toast("Data Fetching Failed!");
           console.log("Data Saving Failed");
@@ -82,7 +85,9 @@ export default function Contact() {
 
         <div className="sub_sub_contact1" id="contactviascroll">
           <br /> <br />
-          <h3>Write me your message<span id="drk_blue">!</span></h3>
+          <h3>
+            Write me your message<span id="drk_blue">!</span>
+          </h3>
           {isToast ? (
             <p style={divStyle}>
               {" "}
@@ -114,7 +119,11 @@ export default function Contact() {
             value={formData.message}
           />
           <br />
-          <input type="submit" onClick={submitHandle} />
+          {loader ? (
+            <input type="submit" value="Submitting..." onClick={submitHandle} />
+          ) : (
+            <input type="submit" onClick={submitHandle} />
+          )}
         </div>
       </div>
     </div>

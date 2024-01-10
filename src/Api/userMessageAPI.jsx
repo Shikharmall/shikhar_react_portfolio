@@ -1,10 +1,9 @@
 import axios from "axios";
+import { API_URL_BASE } from "../utils/apiURL";
 
 export const userMessage = async (data) => {
-  console.log(data);
   try {
-    let result = await axios(
-      "https://ddbackend-8ve4.onrender.com/userPortfolioMessage",
+    let result = await axios(`${API_URL_BASE}/userPortfolioMessage`,
       {
         method: "POST",
         header: {
@@ -12,10 +11,10 @@ export const userMessage = async (data) => {
         },
         withCredentials: true,
         data: data,
-      }
-    );
+      });
     return result;
   } catch (error) {
     console.log(error);
   }
 };
+
